@@ -1,0 +1,109 @@
+.section{
+	clear:both;
+	padding: 0;
+	margin: 0;
+}
+.row{
+	zoom: 1;
+}
+.row::before,
+.row::after{
+	content: "";
+	display: table;
+}
+.row::after{
+	clear: both;
+}
+/* Grid col setup */
+.col{
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child{margin-left: 0;}
+
+/* to remove margin */
+@media only screen and (max-width: 480px){
+	.col{
+		margin: 0;
+	}
+}
+
+/* grid of two */
+
+.span-2-of-2{
+	width: 100%;
+}
+.span-1-of-2{
+	width: 49.2%;
+}
+/* mediaquery for grid of two ============================================================================== */
+
+@media only screen and (max-width: 480px){
+	.span-2-of-2 {
+	width:100% ;
+}
+.span-1-of-2 {
+	width:100% ;
+}
+}
+
+/* grid of two */
+
+.span-3-of-3{
+	width: 100%;
+}
+.span-2-of-3{
+	width: 49.2%;
+}
+.span-1-of-3{
+	width: 30.89%;
+}
+
+/* mediaquery for grid of three ============================================================================== */
+
+@media only screen and (max-width: 480px){
+	.span-3-of-3 {
+	width:100% ;
+}
+.span-2-of-3 {
+	width:100% ;
+}
+.span-1-of-3 {
+	width:100% ;
+
+}
+}
+
+/* grid of four */
+
+.span-4-of-4 {
+	width:100% ;
+}
+.span-3-of-4 {
+	width:74.6% ;
+}
+.span-2-of-4 {
+	width:49.2% ;
+}
+.span-1-of-4 {
+	width:23.8% ;
+}
+
+/* mediaquery for grid of four ============================================================================== */
+
+
+@media only screen and (max-width: 480px){
+	.span-4-of-4 {
+	width:100% ;
+}
+.span-3-of-4 {
+	width:100% ;
+}
+.span-2-of-4 {
+	width:100% ;
+}
+.span-1-of-4 {
+	width:100% ;
+}
+}

@@ -1,0 +1,854 @@
+/* Document
+ * ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+ * ========================================================================== */
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Edge, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+ * ========================================================================== */
+
+/**
+ * Remove the margin on nested lists in Chrome, Edge, IE, and Safari.
+ */
+
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ul dl {
+  margin: 0;
+}
+
+/**
+ * Remove the margin on nested lists in Edge 18- and IE.
+ */
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Correct the inheritance of border color in Firefox.
+ * 3. Show the overflow in Edge 18- and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  color: inherit; /* 2 */
+  height: 0; /* 1 */
+  overflow: visible; /* 3 */
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Add the correct text decoration in Edge 18-, IE, and Safari.
+ */
+
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/* Embedded content
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images within links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Tabular data
+ * ========================================================================== */
+
+/**
+ * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
+ * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
+ */
+
+table {
+  border-color: inherit; /* 1 */
+  text-indent: 0; /* 2 */
+}
+
+/* Forms
+ * ========================================================================== */
+
+/**
+ * Remove the margin on controls in Safari.
+ */
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
+ */
+
+button {
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
+}
+
+/**
+ * Correct the inability to style buttons in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Show the overflow in Edge 18- and IE.
+ */
+
+input {
+  overflow: visible;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge 18- and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in Edge 18- and IE.
+ * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome, Edge, and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Safari.
+ */
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * Remove the inner padding in Chrome, Edge, and Safari on macOS.
+ */
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style upload buttons in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding of focus outlines in Firefox.
+ */
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus outline styles unset by the previous rule in Firefox.
+ */
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Remove the additional :invalid styles in Firefox.
+ */
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/* Interactive
+ * ========================================================================== */
+
+/*
+ * Add the correct display in Edge 18- and IE.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct styles in Edge 18-, IE, and Safari.
+ */
+
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* User interaction
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+Chat
+
+New Conversation
+
+🤓 Explain a complex thing
+
+Explain Artificial Intelligence so that I can explain it to my six-year-old child.
+
+
+🧠 Get suggestions and create new ideas
+
+Please give me the best 10 travel ideas around the world
+
+
+💭 Translate, summarize, fix grammar and more…
+
+Translate "I love you" French
+
+
+o1 Preview
+Hello, how can I help you today?
+GPT-4o Mini
+Searched for:
+The assertion that centralized planning in India has "all but failed" is a complex statement and can be interpreted from various perspectives. Centralized planning refers to government-directed economic activity, where the state plays a central role in decision-making and resource allocation. Here’s an analysis considering both sides of the argument:
+Arguments Supporting Centralized Planning's Failure
+
+
+Inefficiency: Centralized planning often leads to bureaucratic inefficiencies. The Indian Planning Commission, established in 1950, aimed at setting ambitious targets for economic growth through five-year plans. However, many of these plans were marred by inefficiencies due to excessive bureaucracy and lack of accountability.
+
+Misallocation of Resources: Critics argue that centralized planning can lead to misallocation of resources as it may not accurately reflect local needs or market demands. This was evident in sectors like agriculture and manufacturing where output often did not meet actual demand.
+
+Stagnation: For several decades post-independence until the economic liberalization policies initiated in 1991, India experienced sluggish growth rates compared to other developing nations that embraced market-driven economies.
+
+Lack of Innovation: A centralized approach might stifle innovation since it relies heavily on state directives rather than entrepreneurial initiative or competition which are crucial for fostering creativity and technological advancement.
+
+
+Arguments Supporting Centralized Planning's Success
+
+
+Initial Economic Structure: At independence, India faced numerous challenges such as poverty, illiteracy, and lack of infrastructure. Centralized planning helped establish key industries (like steel) and infrastructure (like dams) which were critical during the nascent stages of development.
+
+Reduction in Poverty and Inequality: Various social welfare programs initiated under planned frameworks have contributed significantly towards reducing poverty levels over the decades despite their shortcomings.
+
+Sectoral Development: Certain sectors such as public health (through national programs), education (with increased literacy rates), and rural development have seen significant improvements due to government intervention guided by planned initiatives.
+
+Mixed Economy Approach: Post-liberalization (after 1991), while there has been an increased emphasis on market mechanisms, elements of central planning still exist within certain sectors like healthcare and education indicating a hybrid model rather than total failure.
+
+
+Conclusion
+
+In conclusion, while there are valid arguments suggesting that centralized planning has faced significant challenges leading some analysts to declare its failure—particularly when viewed through modern lenses favoring free
+ Ask original GPT-4o Mini
+a discription deep about a project
+GPT-4o Mini
+Certainly! Let’s discuss a hypothetical project in detail. We'll create a description for a project aimed at developing a sustainable urban green space in a densely populated city. 
+
+Project Title: Urban Oasis: Creating Sustainable Green Spaces
+
+Project Overview
+
+The Urban Oasis project aims to transform underutilized urban land into vibrant green spaces that promote biodiversity, improve air quality, enhance community well-being, and provide recreational opportunities for residents. This initiative will focus on integrating nature into the urban landscape, addressing challenges such as urban heat islands, mental health issues, and the lack of accessible green spaces in densely populated cities.
+Objectives
+
+
+Increase Green Cover: To increase tree canopy and shrubbery in the urban area by 30% within five years.
+
+Enhance Biodiversity: To create habitats for local flora and fauna supporting at least 50 different species of native plants and animals.
+
+Community Engagement: To involve local communities in the planning and upkeep of the green spaces, ensuring they meet the needs of the residents.
+
+Promote Sustainable Practices: To use eco-friendly materials and practices for landscaping, waste management, and water conservation in the development of the green spaces.
+
+
+Project Components
+
+
+Site Selection and Assessment: Identify suitable underutilized sites for development (e.g., vacant lots, rooftops, and park strips) using GIS mapping and community input to assess soil quality, existing vegetation, and potential for ecological restoration.
+
+Design and Planning: Collaborate with landscape architects, environmental scientists, and community stakeholders to create a master plan that integrates native plant species, walking paths, community gardens, playgrounds, and areas for relaxation and social gatherings.
+
+Implementation: 
+
+Phase 1: Site Preparation: Clear debris and assess the health of existing vegetation.
+
+Phase 2: Planting: Organize community planting days for local residents to plant trees, shrubs, and flowers. Ensure that at least 70% of the plants are native species.
+
+Phase 3: Infrastructure Development: Install walking trails, benches, and signage that educates visitors about local ecology and the importance of urban green spaces.
+
+
+
+Water Management: Implement rain gardens and permeable paving to manage stormwater effectively, reducing runoff and flooding while irrigating plants naturally.
+
+Maintenance and Community Involvement: Establish a volunteer program to maintain the green spaces. Regular workshops will be held to educate the community on gardening, sustainability, and the importance of biodiversity.
+
+
+Expected Outcomes
+
+
+Environmental Impact: Improvement in air quality and reduction in urban heat. Increased urban biodiversity through the support of local flora and fauna.
+
+Social Impact: Enhanced community cohesion and well-being due to increased access to green spaces for recreation, relaxation, and social interaction, leading to improved mental health among residents.
+
+Economic Impact: Increase in local property values and potential boosts to local businesses due to improved neighborhood aesthetics and increased foot traffic.
+
+
+Timeline
+
+Phase 1: Research and Community Engagement - 6 Months  
+
+Conduct assessments and workshops with community stakeholders to gather input.
+
+
+Phase 2: Design and Planning - 4 Months  
+
+Develop design drafts and refine plans incorporating community feedback.
+
+
+Phase 3: Implementation - 12 Months  
+
+Execute site preparation, planting, and infrastructure development.
+
+
+Phase 4: Ongoing Maintenance and Community Programs - Indefinite  
+
+Launch volunteer and educational programs following the completion of initial planting.
+
+
+Budget
+
+The estimated budget for the Urban Oasis project is $500,000, covering land assessment, design plans, plant materials, labor, equipment, and educational programs. Funding will be sought through grants, donations from local businesses, and community fundraising efforts.
+Conclusion
+
+The Urban Oasis project represents a pivotal shift toward making our cities more livable, environmentally friendly, and resilient. By fostering green spaces, we will not only combat urban challenges but also cultivate community spirit, connection to nature, and enhance the overall quality of life for urban residents.
+
+This description details various aspects of a project, including its objectives, components, expected outcomes, timeline, and budget. You can adjust any aspect of this description to better fit specific needs or areas of interest!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="150">
+
+  <!-- Header and Navigation -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">My App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#jumbotron">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Download my app</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="email" placeholder="Email" aria-label="Email">
+            <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
+            <button class="btn btn-success" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Jumbotron Section -->
+    <section class="mt-4 p-5 bg-primary text-white rounded text-center" id="jumbotron">
+      <h1 class="display-4">My Awesome App</h1>
+      <p class="lead">This is a sample Bootstrap application. A simple jumbotron-style component for calling attention to featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p>
+        <a class="btn btn-light btn-lg" href="javascript:void(0)" role="button">Learn more</a>
+      </p>
+    </section>
+
+    <!-- Why Awesome Section -->
+    <section class="container text-center mt-5 mb-5">
+      <h1>Why this app is awesome</h1>
+      <p>This app is built with Bootstrap, a powerful front-end framework that makes web development faster and easier.</p>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="card-group mb-5" style="margin-left: 80px;margin-right: 80px; padding-top: 20px;" id="about">
+      <article class="card" style="border: 2px solid black; margin: 10px;">
+        <img src="cardimage.png" class="card-img-top" alt="..." style="height: 50%; width: 60%;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </article>
+      <article class="card" style="border: 2px solid black; margin: 10px;">
+        <img src="cardimage.png" class="card-img-top" alt="..." style="height: 50%; width: 60%;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </article>
+      <article class="card" style="border: 2px solid black; margin: 10px;">
+        <img src="cardimage.png" class="card-img-top" alt="..." style="height: 50%; width: 60%;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div id="footer" style="background-color: aqua; padding-top:150px; text-align: center; margin-top: 50px; padding-bottom: 50px;">
+      <p>© 2023 My App. All rights reserved.</p>
+      <p><a href="https://www.example.com/privacy-policy">Privacy Policy</a> | <a href="https://www.example.com/terms-of-service">Terms of Service</a></p>
+      <h3>Download the app!</h3>
+      <p>Really, Why should i download the app??</p>
+      <p><a href="https://play.google.com/store/apps/details?id=com.jio.myjio&hl=en_IN"><img src="image.png" alt="" style=" width: 200px;"></a></p>
+    </div>
+  </footer>
+</body>
+</html>
+a readme file  for this
+GPT-4o Mini
+Here is a sample README file for your Bootstrap-based web application:
+
+My Awesome App
+
+Overview
+
+My Awesome App is a simple yet visually appealing web application built using Bootstrap 5. The application showcases a jumbotron-style welcoming message, an "About" section featuring cards to display relevant information, and a footer with additional resources and links.
+Features
+
+
+Responsive Design: The application is designed to work seamlessly on various devices, including desktops, tablets, and mobile phones.
+
+Bootstrap Integration: Utilizes Bootstrap for a modern, clean layout and components.
+
+Navigation: Includes a fixed-top navigation bar for easy access to different sections.
+
+Card Layout: Features a card group to display relevant content or features of the app.
+
+Simple Footer: Contains essential links to privacy policy, terms of service, and download options.
+
+
+Technologies Used
+
+
+HTML
+
+CSS (Bootstrap 5)
+
+JavaScript (Bootstrap JS and jQuery)
+
+
+Installation Instructions
+
+
+Clone the Repository
+git clone https://github.com/your-username/my-awesome-app.git
+cd my-awesome-app
+
+Open the Application
+Open the index.html file in your web browser to view the app.
+open index.html  # For MacOS
+start index.html # For Windows
+xdg-open index.html # For Linux
+
+Ensure Internet Connectivity
+The application relies on a CDN for Bootstrap and jQuery, so an internet connection is required for styles and scripts to load properly.
+
+
+Usage
+
+
+Click on the navigation links to jump to various sections of the page.
+
+Explore the reason why this application is deemed awesome in its dedicated section.
+
+Download the app using the provided link
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assighnment-3</title>
+     <link rel="stylesheet" href="style.css">
+   
+   
+</head>
+<body>
+    <div id="error"></div>
+    <div id="success"></div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" placeholder="Enter your email" required>
+    </div>
+    <div>
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="Phone" name="Phone" placeholder="Enter your phone number">
+    </div>
+    <div>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter your password" required>
+    </div>
+    <div>
+        <button id="submit">Submit</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</script>
+</body>
+</html>
+readme file for this
+GPT-4o Mini
+Here is a sample README file for your HTML form submission project:
+
+Assignment-3: Form Submission with Validation
+
+Overview
+
+This project is a simple web application that showcases a form for user input, including email, phone number, and password fields. The form features basic validation to ensure that required fields are filled out before submission. 
+Features
+
+
+Email Field: Collects user email with validation.
+
+Phone Field: Accepts phone numbers.
+
+Password Field: Secures user input with masking.
+
+Validation Messages: Displays success and error messages based on user input.
+
+
+Technologies Used
+
+
+HTML
+
+CSS (Custom styling in style.css)
+
+JavaScript (with jQuery for DOM manipulation)
+
+
+Installation Instructions
+
+
+Clone the Repository
+git clone https://github.com/your-username/assignment-3.git
+cd assignment-3
+
+Open the Application
+Open the index.html file in your web browser to view and interact with the form.
+open index.html # For MacOS
+start index.html # For Windows
+xdg-open index.html # For Linux
+
+Include CSS and JavaScript Files
+Make sure that both style.css and script.js are in the same directory as index.html to ensure proper linking.
+
+
+Usage
+
+
+Input Fields: Enter valid email, optional phone number, and a secure password.
+
+Submit: Click the "Submit" button to validate the input.
+
+Success/Error Messages: View feedback messages that indicate whether the form submission was successful or if there were validation errors.
+
+
+Notes
+
+
+This project is designed as a basic example of form handling and validation in web development.
+
+Ensure that you have an active internet connection for jQuery to load properly from the CDN.
+
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Feel free to modify the details such as the repository URL and add any additional information specific to your project.
+GPT-4o Mini
+coin image
+10
+Upgrade
+
+
+
+
+Ask me anything...
+
+
+
+Make a Review & Earn Credit ❤
+Chat
+Ask
+Search
+Write
+Image
+ChatFile
+Vision
+Full Page
+Invite & Earn
